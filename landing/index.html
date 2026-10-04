@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой лендинг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ШАПКА: логотип слева, меню справа, кнопка -->
+    <header class="site-header">
+        <a href="#" class="logo">🚀 MySpace</a>
+        <nav class="main-nav">
+            <a href="#about">О нас</a>
+            <a href="#features">Возможности</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <a href="#start" class="btn btn-primary">Начать</a>
+    </header>
+
+    <!-- ГЕРОЙ-БЛОК: центрированное приветствие -->
+    <section class="hero">
+        <h1>Добро пожаловать на мой сайт</h1>
+        <p>Здесь я показываю, чему научился за этот курс</p>
+        <a href="#features" class="btn btn-primary">Смотреть работы</a>
+    </section>
+
+    <section class="team">
+    <h2>Наша команда</h2>
+    <article class="card"><h3>👨‍💻 Иван</h3><p>Разработчик</p></article>
+    <article class="card"><h3>👩‍🎨 Анна</h3><p>Дизайнер</p></article>
+    <article class="card"><h3>👨‍🔧 Пётр</h3><p>Тестировщик</p></article>
+    <article class="card"><h3>👩‍💼 Мария</h3><p>Менеджер</p></article>
+</section>
+
+
+    <!-- ГАЛЕРЕЯ: сетка из трёх карточек -->
+    <section class="gallery" id="features">
+        <h2>Мои проекты</h2>
+        <article class="card">
+            <h3>🌐 Сайт-блог</h3>
+            <p>Блог на Flask с базой данных</p>
+        </article>
+        <article class="card">
+            <h3>📝 Планировщик</h3>
+            <p>Приложение задач на JavaScript</p>
+        </article>
+        <article class="card">
+            <h3>🎨 Резюме</h3>
+            <p>Сайт-визитка на HTML и CSS</p>
+        </article>
+         <article class="card">
+            <h3>📌 Мысли</h3>
+            <p>Размышления и идеи</p>
+        </article>
+    </section>
+
+    <!-- МАКЕТ: сайдбар + контент -->
+    <section class="layout" id="about">
+            <main class="content">
+ <h2>Что я умею</h2>
+            <p>HTML, CSS, JavaScript, Python, Flask, Git.</p>
+            <p>Сейчас изучаю Flexbox и Grid — этот сайт собран на них.</p>
+        </main>
+             <aside class="sidebar">
+                 <h3>📌 О себе</h3>
+            <p>Студент 2 курса, изучаю веб-разработку.</p>
+        </aside>
+    </section>
+
+    <!-- ПОДВАЛ: центрированный копирайт -->
+    <footer class="site-footer" id="contacts">
+        <p>© 2026 MySpace · Сделано на Flexbox и Grid</p>
+    </footer>
+
+</body>
+</html>
